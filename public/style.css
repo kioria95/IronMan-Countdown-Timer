@@ -37,5 +37,6 @@ h1 {
 }
 
 .countdown-disp span {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
+    font-weight: 400;
 }

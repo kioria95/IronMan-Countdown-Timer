@@ -6,7 +6,6 @@ const newYears = "1 Jan 2021";
 
 var wallpapers = [ "url('ironman1.jpg')", "url('ironman.jpg')", "url('ironman20.jpg')", "url('ironman46.jpg')"];
 
-
 function countdown() {
     const newYearsDate = new Date(newYears);
     const currentDate = new Date();
@@ -28,8 +27,6 @@ function countdown() {
 function formatTime(time) {
     return time < 10 ? `0${time}` : time;
 }
-
-
  
 function setBackground()
 {
@@ -39,7 +36,8 @@ function setBackground()
 }
 
 
-
+setBackground();
 countdown();
+
 setInterval(countdown, 1000);
 setInterval(setBackground, 5000);
