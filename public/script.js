@@ -32,11 +32,9 @@ function setBackground()
 {
      let rand =  Math.floor(Math.random() * 5);
     document.body.style.backgroundImage = `${wallpapers[rand]}`;
-    document.body.style.transition = "2s"; 
+    document.body.style.transition = "3s"; 
 }
 
-
-setBackground();
 countdown();
 
 setInterval(countdown, 1000);
